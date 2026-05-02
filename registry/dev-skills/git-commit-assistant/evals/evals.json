@@ -1,0 +1,20 @@
+{
+    "skill_name": "git-commit-assistant",
+    "evals": [
+      {
+        "id": 1,
+        "prompt": "Comita essas mudanças no repositório",
+        "expected_output": "The assistant should run git status, summarize changes, propose a commit message, and ask for confirmation."
+      },
+      {
+        "id": 2,
+        "prompt": "Salva isso no GitHub",
+        "expected_output": "The assistant should interpret as commit + push workflow and ask confirmation before executing."
+      },
+      {
+        "id": 3,
+        "prompt": "Faz commit dessas alterações",
+        "expected_output": "The assistant should detect files, propose a commit message, and perform safe commit steps."
+      }
+    ]
+  }

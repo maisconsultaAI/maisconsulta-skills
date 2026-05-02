@@ -1,10 +1,10 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "linkedin-posts-generator",
   "version": "1.0.0",
   "license": "MIT",
   "description": "Gera posts de alto engajamento para LinkedIn com foco em audiência B2B, autoridade e práticas do algoritmo. Inclui estilos de escrita (professor, técnico, storytelling, cut-through, contrarian, data-driven e híbridos), anatomia de post, hooks e CTAs. Use quando o usuário pedir post para LinkedIn, conteúdo B2B, thought leadership ou copy profissional para rede.",
-  "skill_path": "SKILL.md",
+  "type": "skill",
+  "main": "SKILL.md",
   "bundled_resources": {
     "references": ["references/writing_styles.md"],
     "examples": ["examples/examples.md", "examples/posts-por-estilo.md"],

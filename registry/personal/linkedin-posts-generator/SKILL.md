@@ -13,66 +13,41 @@ license: MIT
 
 # Skill: LinkedIn Posts Generator B2B
 
-## Quando usar esta skill
+## Contexto
 
-Use quando Cristiano pedir para:
-- Criar posts para LinkedIn
-- Gerar conteúdo B2B profissional
-- Desenvolver autoridade no LinkedIn
-- Criar posts para engajamento
-- Posicionar-se como líder de opinião
-- Gerar debates e interações profissionais
-- Aumentar visibilidade no LinkedIn
-
-## Contexto: Cristiano no LinkedIn
-
-**Objetivo**: Conteúdo que aumente interação, alcance e autoridade.
-
-**Público-alvo**: Empresas B2B, tomadores de decisão, executivos, gestores.
-
+**Usuário**: Cristiano  
+**Objetivo**: Posts que aumentem interação, alcance e autoridade no LinkedIn.  
+**Público-alvo**: Empresas B2B, tomadores de decisão, executivos, gestores.  
 **Plataforma**: LinkedIn (exclusivamente).
 
 ## Materiais de referência
 
-- **Catálogo completo de estilos, biblioteca de hooks, templates e hashtags**: `references/writing_styles.md`
-- **Guia do usuário e prompts prontos**: `examples/examples.md`
-- **Posts exemplo por estilo**: `examples/posts-por-estilo.md`
+Carregue apenas quando necessário:
+- `references/writing_styles.md` — catálogo completo de estilos, biblioteca de hooks, templates e hashtags B2B
+- `examples/posts-por-estilo.md` — posts completos por estilo com análise
+- `examples/examples.md` — guia rápido e prompts de exemplo
 
-## Workflow da skill
+## Workflow
 
-### PASSO 1: Identificar o estilo de escrita
+### PASSO 1 — Identificar o estilo
 
 **SEMPRE pergunte primeiro**: "Qual estilo você quer usar para este post?"
 
-Apresente opções de forma clara (lista ou ferramenta interativa do ambiente — por exemplo seleção guiada quando existir). Use os **18 estilos** e descrições detalhadas em `references/writing_styles.md`.
+Apresente as opções usando o catálogo em `references/writing_styles.md`. São 14 estilos principais + 4 híbridos de alta performance.
 
-### PASSO 2: Coletar informações do post
+### PASSO 2 — Coletar contexto
 
-Após definir o estilo:
 - **Tema/Tópico**
 - **Objetivo**: Educar, provocar, case, debate, etc.
 - **Mensagem principal / tese**
 - **Contexto**: Cases, dados, experiências
 
-### PASSO 3: Estrutura LinkedIn B2B de alto engajamento
+### PASSO 3 — Estrutura do post
 
-#### Anatomia do post
-
-**Linhas 1–3 — Hook**  
-Parar o scroll; deve funcionar cortado antes de "...ver mais".
-
-**Corpo — Escanável**  
-Parágrafos curtos (1–3 linhas), quebras de linha, listas com → ou •.
-
-**Final — CTA**  
-Pergunta específica que incentive comentários com substância.
-
-**Hashtags — 3 a 5** no final (ver referência).
-
-#### Formato sugerido
+**Anatomia obrigatória:**
 
 ```
-[Hook — 1–2 linhas]
+[Hook — 1–2 linhas que funcionam cortadas antes de "...ver mais"]
 
 [Contexto ou história — 2–3 linhas]
 
@@ -82,90 +57,51 @@ Pergunta específica que incentive comentários com substância.
 
 [Conclusão — 2–3 linhas]
 
-[CTA + pergunta]
+[CTA + pergunta genuína]
 
 #Hashtag1 #Hashtag2 #Hashtag3
 ```
 
-**Tamanho**: 150–300 palavras na maioria dos casos (300–500 só para thought leadership denso).
+**Regras de formato:**
+- Parágrafos curtos (1–3 linhas)
+- Sem link no corpo (usar primeiro comentário se necessário)
+- 3–5 hashtags no final
+- 150–300 palavras (300–500 só para thought leadership denso)
 
-### PASSO 4: Melhores práticas do algoritmo LinkedIn
+### PASSO 4 — Boas práticas do algoritmo
 
-#### O algoritmo tende a favorecer
+**Favorece:**
+- Dwell time alto (hook + formatação escanável)
+- Comentários elaborados nos primeiros 60 minutos
+- Conteúdo nativo sem links externos
+- Consistência de frequência e horários
 
-1. **Dwell time** — Hook + formatação escanável
-2. **Primeiros 60 minutos** — Comentários e compartilhamentos pesam muito; responder comentários
-3. **Conversas** — Perguntas que gerem respostas com várias palavras
-4. **Conteúdo nativo** — Sem links no corpo (link no primeiro comentário se necessário)
-5. **Consistência** — Frequência e horários regulares
+**Evitar:**
+- Links no corpo do post
+- Mais de 5 hashtags
+- Engagement bait ("curta se concorda")
+- Clickbait enganoso
 
-#### Evitar
+### PASSO 5 — Checklist pré-publicação
 
-Links externos no corpo, mais de 5 hashtags, clickbait enganoso, cópia de outros posts, pedidos explícitos de like/share, engagement bait óbvio.
-
-#### Gatilhos de engajamento (exemplos)
-
-- Comentários: "Qual sua experiência com isso?", "Concorda ou discorda?", "O que você adicionaria?"
-- Salvamentos: listas, frameworks, passo a passo
-
-Hooks e templates por estilo estão em `references/writing_styles.md`.
-
-### PASSO 5: Checklist pré-publicação
-
-**Hook**
-- [ ] Captura atenção em ~2 s?
-- [ ] Primeiras linhas funcionam truncadas?
-- [ ] Gera curiosidade?
-
-**Estrutura**
-- [ ] Parágrafos curtos e respiração visual?
-- [ ] Listas escaneáveis?
-
-**Conteúdo**
-- [ ] Valor claro e aderente ao estilo?
-- [ ] Tom B2B adequado?
-
-**Engajamento**
-- [ ] CTA e pergunta genuína?
-- [ ] Sem bait óbvio?
-
-**LinkedIn**
+- [ ] Hook captura atenção em ~2s e funciona truncado?
+- [ ] Parágrafos curtos e escanáveis?
+- [ ] Valor claro e tom B2B adequado?
+- [ ] CTA com pergunta genuína?
 - [ ] Sem link no corpo?
 - [ ] 3–5 hashtags?
-- [ ] Tamanho adequado?
-
-**Autoridade**
 - [ ] Reforça expertise de Cristiano?
 
-### PASSO 6: Estratégia de conteúdo (resumo)
+### PASSO 6 — Formato da resposta
 
-Variar estilos na semana/mês. Sugestão ilustrativa:
-- **Segunda**: Cut Through + Analítico
-- **Quarta**: Storytelling + Mentor
-- **Sexta**: Contrarian + Data-driven ou Simplista + Técnico
-
-Mix mensal orientativo: ~40% educacional, ~30% provocativo, ~20% narrativo, ~10% visionário.
-
-### PASSO 7: Métricas de sucesso (orientação)
-
-- **Engajamento**: comentários substantivos, compartilhamentos
-- **Visibilidade**: alcance vs base de seguidores, impressões
-- **Autoridade**: menções, convites, DMs qualificadas
-
-### PASSO 8: Formato da resposta ao usuário
-
-1. Confirmação do estilo e expectativa (alcance vs autoridade vs engajamento)
+1. Confirmação do estilo e expectativa (alcance × autoridade × engajamento)
 2. **Post** pronto para copiar
 3. **Raciocínio estratégico** breve (hook, estrutura, resultado esperado)
-4. **Sugestões**: horário B2B, série/variação
-5. **Pergunta de refinamento**: tom, hook alternativo, segunda versão
+4. **Horário ideal** para publicação B2B
+5. **Pergunta de refinamento** para ajustes
 
-## Horários recomendados LinkedIn B2B
+## Horários recomendados (B2B)
 
 **Melhores dias**: Terça, Quarta, Quinta  
-**Horários**: 7h–9h, 12h–13h, 17h–18h  
-**Evitar**: Sexta tarde e fim de semana para foco B2B corporativo
-
----
-
-**IMPORTANTE**: Skill voltada ao algoritmo e comportamento atuais do LinkedIn para público B2B. Outras plataformas exigem adaptação.
+**Horários**: 7h–9h | 12h–13h | 17h–18h  
+**Evitar**: Sexta tarde e fins de semana

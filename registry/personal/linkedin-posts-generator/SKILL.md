@@ -25,7 +25,7 @@ license: MIT
 Carregue quando necessário:
 - `references/workflow_details.md` - Documento de referência complementar ao SKILL.md. Sempre carregue quando para orientação detalhada sobre estratégia, métricas ou mix de conteúdo.
 - `references/writing_styles.md` — catálogo completo de estilos, biblioteca de hooks, templates e hashtags B2B
-- `examples/posts-por-estilo.md` — posts completos por estilo com análise
+- `examples/posts_por_estilo.md` — posts completos por estilo com análise
 - `examples/examples.md` — guia rápido e prompts de exemplo
 
 ## Workflow

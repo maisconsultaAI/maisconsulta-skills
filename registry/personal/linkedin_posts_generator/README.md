@@ -4,7 +4,7 @@ Skill especializada em criar posts de **alto engajamento** para LinkedIn com foc
 
 ## 🎯 Objetivo
 
-Gerar conteúdo diário para Cristiano que:
+Gerar conteúdo diário que:
 - ✅ **Aumente interação** (comentários, compartilhamentos)
 - ✅ **Amplifique visibilidade** (alcance, impressões)
 - ✅ **Construa autoridade** (posicionamento, credibilidade)
@@ -66,16 +66,15 @@ A skill oferece estilos específicos para diferentes objetivos:
 Layout alinhado à anatomia recomendada para skills (manifesto, referências, exemplos e evals):
 
 ```
-linkedin-posts-generator/
+linkedin_posts_generator/
 ├── SKILL.md                      # Obrigatório: instruções + frontmatter YAML (name, description)
-├── manifest.json                 # Metadados e índice dos recursos empacotados
-├── LICENSE.txt                   # Licença MIT
 ├── README.md                     # Este arquivo
 ├── references/
 │   └── writing_styles.md         # Catálogo de estilos, hooks, templates e hashtags B2B
+    └── workflow_details.md       # Documento de referência complementar ao `SKILL.md`. Carregue quando precisar de orientação detalhada sobre estratégia, métricas ou mix de conteúdo.
 ├── examples/
 │   ├── examples.md               # Guia rápido e prompts de exemplo
-│   └── posts-por-estilo.md       # Posts completos por estilo (comentados)
+│   └── posts_por_estilo.md       # Posts completos por estilo (comentados)
 └── evals/
     └── evals.json                # Cenários de avaliação do comportamento esperado
 ```

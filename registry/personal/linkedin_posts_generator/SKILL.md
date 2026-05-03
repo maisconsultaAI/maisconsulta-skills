@@ -1,5 +1,5 @@
 ---
-name: linkedin-posts-generator
+name: linkedin_posts_generator
 description: >-
   Gera posts de alto engajamento para LinkedIn com audiência B2B: escolha de estilo (professor, técnico,
   simplista, cut-through, storytelling, visionário, opinionado, analítico, mentor, confessional, inspiracional,

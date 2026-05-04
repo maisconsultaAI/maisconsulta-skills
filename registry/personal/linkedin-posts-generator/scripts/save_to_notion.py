@@ -248,7 +248,7 @@ def build_page_content(post_text: str, raciocinio: str) -> str:
 - [ ] CTA com pergunta genuína?
 - [ ] Sem link no corpo?
 - [ ] 3–5 hashtags?
-- [ ] Reforça expertise de Cristiano?
+- [ ] Reforça expertise do Usuário?
 - [ ] Publicado no horário ideal?
 - [ ] Primeiros 60 min: respondeu todos os comentários?
 
@@ -343,7 +343,7 @@ def build_notion_payload(
 INSTRUCTIONS = """
 ## Como salvar o post no banco "Posts do LinkedIn" no Notion
 
-Após gerar o post e o Cristiano aprovar, siga EXATAMENTE estes passos:
+Após gerar o post e o Usuário aprovar, siga EXATAMENTE estes passos:
 
 ### Passo 1 — Executar validações
 Rode este script com o texto do post:
@@ -379,7 +379,7 @@ Use `Notion:notion-create-pages` passando:
 - `pages`: payload["pages"]
 
 ### Passo 4 — Confirmar
-Informe ao Cristiano:
+Informe ao Usuário:
 - ✅ Post salvo no banco "Posts do LinkedIn"
 - 📋 Título e status (Rascunho)
 - 💡 Campos de métricas ficam vazios — preencher após publicação
@@ -405,7 +405,7 @@ Estes campos NÃO são preenchidos na criação:
 - Link do post, Exibições, Reações, Comentários, Compartilhamentos, Cliques, Interações
 - Taxa de engajamento (%) é fórmula automática
 
-O Cristiano preenche manualmente após 24-48h da publicação.
+O Usuário preenche manualmente após 24-48h da publicação.
 """
 
 

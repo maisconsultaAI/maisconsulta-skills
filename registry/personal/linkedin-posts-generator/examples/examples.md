@@ -1,6 +1,6 @@
 # Exemplos de uso — LinkedIn Posts Generator
 
-Guia rápido para pedidos à skill. Para **posts completos por estilo**, abra `examples/posts-por-estilo.md`.
+Guia rápido para pedidos à skill. Para **posts completos por estilo**, abra `examples/posts_por_estilo.md`.
 
 ---
 
@@ -88,7 +88,7 @@ Inclua dados, framework prático e CTA forte para debate. Público: CEOs e funda
 2. Raciocínio estratégico (por que funciona)
 3. Expectativa: alcance × autoridade × engajamento
 4. Melhor horário sugerido
-5. 3–5 hashtags
+5. 3-5 hashtags
 6. Variações opcionais
 
 ---
@@ -115,8 +115,8 @@ Inclua dados, framework prático e CTA forte para debate. Público: CEOs e funda
 
 ## Horários B2B (resumo)
 
-**Dias**: Terça, Quarta, Quinta  
-**Horários**: 7h–9h, 12h–13h, 17h–18h  
+**Dias**: Terça, Quarta, Quinta
+**Horários**: 7h-9h, 12h-13h, 17h-18h
 **Evitar**: Sexta tarde e fins de semana
 
 ---
@@ -125,9 +125,9 @@ Inclua dados, framework prático e CTA forte para debate. Público: CEOs e funda
 
 | Nível | Comentários | Alcance vs seguidores |
 |-------|-------------|------------------------|
-| Bom | ~1–2% | 2–3× |
-| Ótimo | ~2–4% | 5–10× |
-| Excepcional | 4%+ | 10×+ e shares consistentes |
+| Bom | ~1-2% | 2-3x |
+| Ótimo | ~2-4% | 5-10x |
+| Excepcional | 4%+ | 10x+ e shares consistentes |
 
 ---
 
@@ -148,15 +148,15 @@ Pedir "post viral" sem estilo; copiar concorrente literalmente; misturar demasia
 
 ## Próximos passos sugeridos
 
-1. Escolher tema que você domina  
-2. Escolher estilo (Cut Through + Analítico é um bom padrão inicial)  
-3. Pedir o post com contexto  
-4. Revisar com sua voz  
-5. Publicar no horário indicado  
-6. Engajar na primeira hora  
+1. Escolher tema que você domina
+2. Escolher estilo (Cut Through + Analítico é um bom padrão inicial)
+3. Pedir o post com contexto
+4. Revisar com sua voz
+5. Publicar no horário indicado
+6. Engajar na primeira hora
 
 ---
 
 ## Mais exemplos
 
-Ver **`posts-por-estilo.md`** na mesma pasta para posts inteiros comentados por formato.
+Ver **`posts_por_estilo.md`** na mesma pasta para posts inteiros comentados por formato.

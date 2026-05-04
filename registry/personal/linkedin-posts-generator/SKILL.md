@@ -1,5 +1,5 @@
 ---
-name: linkedin_posts_generator
+name: linkedin-posts-generator
 description: >-
   Gera posts de alto engajamento para LinkedIn com audiência B2B: escolha de estilo (professor, técnico,
   simplista, cut-through, storytelling, visionário, opinionado, analítico, mentor, confessional, inspiracional,
@@ -27,6 +27,10 @@ Carregue apenas quando necessário:
 - `references/writing_styles.md` — catálogo completo de estilos, biblioteca de hooks, templates e hashtags B2B
 - `examples/posts_por_estilo.md` — posts completos por estilo com análise
 - `examples/examples.md` — guia rápido e prompts de exemplo
+
+## Scripts
+
+- `scripts/save_to_notion.py` — Script determinístico com template de página, validações e instruções para salvar o post no Notion. **Carregue e execute as validações** antes de salvar. Siga as instruções do script para criar a página no Notion via MCP.
 
 ## Workflow
 
@@ -100,6 +104,26 @@ Apresente as opções usando o catálogo em `references/writing_styles.md`. São
 3. **Raciocínio estratégico** breve (hook, estrutura, resultado esperado)
 4. **Horário ideal** para publicação B2B
 5. **Pergunta de refinamento** para ajustes
+
+### PASSO 7 — Salvar no banco "Posts do LinkedIn" no Notion
+
+Após o post ser aprovado pelo Cristiano (ou quando ele pedir para salvar):
+
+1. **Carregar o script**: Leia `scripts/save_to_notion.py`
+2. **Executar validações**: Rode `validate_post(post_text)` via Python. Corrija avisos antes de prosseguir.
+3. **Montar o payload**: Rode `build_notion_payload()` com todos os parâmetros:
+   - `titulo`: título curto e descritivo do post
+   - `post_text`: texto completo do post
+   - `estilo_skill`: estilo usado (o script mapeia para as 5 categorias do banco)
+   - `tema`: uma das opções do banco (Agent Skills, Implementação de IA, Estratégia de IA, Arquitetura / Integração, Liderança / Gestão)
+   - `objetivo`, `raciocinio`, `horario`: textos livres
+4. **Criar no Notion**: Use `Notion:notion-create-pages` com o payload gerado.
+   - `parent`: `data_source_id: 6fc126c6-c0cb-421d-8de8-537408635273`
+   - O script preenche automaticamente: Título, Status (Rascunho), Estilo, Tema, Objetivo, Hook, Horário, Hashtags, Data, Notas
+   - Campos de métricas ficam vazios (preenchidos pós-publicação)
+5. **Confirmar**: Informe título, status e que as métricas devem ser preenchidas após 24-48h.
+
+**Importante**: O script garante mapeamento determinístico de estilos (14 estilos + 4 híbridos → 5 categorias do banco) e hashtags (texto livre → multi_select). Metadados ficam nas properties do banco, conteúdo rico fica no corpo da página.
 
 ## Horários recomendados (B2B)
 
